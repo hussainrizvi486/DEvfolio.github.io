@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.index-main {
+    height: 80vh;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.dev-info {
+    padding-top: 10%;
+}
+
+.dev-info h1 {
+    font-size: 3rem;
+    font-family: 'Silkscreen', cursive;
+    color: #ffffffff;
+}
+
+.text-effect {
+    display: flex;
+}
+
+.dev-info h3 {
+    font-size: 2rem;
+    color: #ffffffff
+}
+
+.text-effect h3 {
+    font-size: x-large;
+    font-family: 'Silkscreen', cursive;
+}
+
+#text {
+    padding-left: 2%;
+    color: rgb(31 0 54);
+}
+
+/* SERVICES PAGE CSS */
+
+.services-main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    font-family: arial;
+}
+
+.services-main h1 {
+    margin: 5% 0%;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+}
+
+.services {
+    margin: 5% 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-box {
+    width: 30%;
+    text-align: center;
+}
+
+.service-box img {
+    width: 30%;
+}
+
+.service-box h1 {
+    font-size: larger;
+}
+
+.service-box p {
+    font-size: small;
+    color: rgb(178, 178, 178)
+}
+
+
+
+/* ABOUT PAGE CSS */
+
+.about-main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+    color: rgb(221, 221, 221);
+}
+
+.about-dev {
+    margin: 4% 2%;
+}
+
+.about-dev .info {
+    margin-left: 4%;
+    margin-top: 2%;
+    text-align: start;
+    width: 35%;
+}
+
+.info p {
+    padding: 5% 0%;
+    color: rgb(164, 164, 164);
+}
+
+.contacts {
+    margin: 4% 0%;
+}
+
+.about-dev span {
+    display: flex;
+    align-items: center;
+}
+
+.about-dev span img {
+    width: 10%;
+    padding-right: 2%;
+}
+
+.about-dev span {
+    padding: 2% 0%;
+    font-weight: bold;
+    font-size: small;
+    color: #Fff;
+}
+
+.about-dev span :hover {
+    transform: translateY(-2px);
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .dev-info {
+        padding-top: 10%;
+    }
+
+    .dev-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .services-main h1 {
+        font-size: x-large;
+    }
+
+    .box p {
+        font-size: small;
+    }
+
+    .about-dev .info {
+        width: 70%;
+    }
+
+    .about-dev span {
+        font-size: small;
+    }
+
+    .about-dev span img {
+        width: 6%;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .dev-info h1 {
+        font-size: 2.2rem;
+    }
+
+    .info p {
+        font-size: small;
+    }
+
+    .services-main {
+        height: auto;
+    }
+
+    .services {
+        margin: 5% 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-box {
+        width: 80%;
+        padding: 4% 0%;
+    }
+
+    .service-box img {
+        width: 20%;
+    }
+
+    /* .service-box img {} */
+
+}
+
+
+@media (max-width: 450px) {
+    .dev-info {
+        padding-top: 25%;
+    }
+
+    .dev-info h1 {
+        font-size: 1.8rem;
+    }
+
+    .dev-info h3 {
+        font-size: larger;
+    }
+
+    .services-main h1 {
+        font-size: large;
+    }
+
+
+    .service-box img {
+        width: 25%;
+    }
+
+    .box img {
+        width: 35%;
+    }
+
+    .about-dev .info {
+        width: 90%;
+    }
+
+    .info p {
+        padding: 10% 0%;
+        font-size: small;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 350px) {
+
+    .service-box img {
+        width: 30%;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .dev-info h1 {
+        padding-top: 30%;
+        font-size: larger;
+    }
+
+    .dev-info h3 {
+        font-size: large;
+    }
+
+}
