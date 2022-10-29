@@ -52,23 +52,3 @@ loop()
 
 
 
-
-// let crossIcon = document.querySelector("#cross")
-// let menuIcon = document.getElementById("menu")
-
-// crossIcon.style.display="none"
-
-// document.querySelector(".slider").addEventListener('click',()=>{
-//     document.querySelector(".sidebar-nav").classList.toggle('sidebar-go')
-//     if(document.querySelector(".sidebar-nav").classList.contains('sidebar-go')
-//     ){
-//         menuIcon.style.display='inline'
-//         crossIcon.style.display='none'
-//     }
-//     else{
-//         setTimeout(() => {
-//         document.querySelector("#cross").style.display='inline';}, 300)
-        
-//         document.querySelector("#menu").style.display='none'
-//     }
-// })
